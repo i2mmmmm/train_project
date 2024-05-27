@@ -24,13 +24,21 @@ AI factory에서 주관한 제 1회 철도 인공지능 경진대회
 - 직선구간 및 곡선구간 데이터가 yaw damper의 비선형제어능력 조건에 따라 5개씩 주어짐(30,40,50,70,100)
 
 📁 dataset.zip
+
  ├--- 📃 data_columns.csv                      --- 주행데이터 컬럼 정보 (utf-8)
+ 
  ├--- 📃 lane_data_columns.csv                  --- 선로데이터 컬럼 정보 (utf-8)
+ 
  ├--- 📃 차량_및_요댐퍼.xlsx                 --- 차량 및 yaw damper 관련 정보 (단순 참고용)
+
  ├--- 📃 lane_data_s.csv                   --- 3km 직선 구간 선로 데이터
+ 
  ├--- 📃 lane_data_c.csv                   --- 3km 곡선 구간 선로 데이터
+ 
  ├--- 📃 data_sXX.csv                   --- 3km 직선 구간 주행 데이터. (각 숫자는 yaw damper의 비선형제어능력 조건)
+ 
  ├--- 📃 data_cXX.csv                   --- 3km 곡선 구간 주행 데이터. (각 숫자는 yaw damper의 비선형제어능력 조건)
+ 
  └--- 📃 answer_sample.csv          --- 정답 양식 파일
 
 ### 🧑‍🤝‍🧑 멤버구성
